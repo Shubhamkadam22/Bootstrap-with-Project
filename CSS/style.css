@@ -1,3 +1,13 @@
 *{
     font-family: "Inter", sans-serif;
 }
+
+.whatsappbtn{
+   padding: 10px 18px;
+   font-size: 16px
+}
+
+.login{
+     padding: 10px 18px;
+     font-size: 16px;
+}
