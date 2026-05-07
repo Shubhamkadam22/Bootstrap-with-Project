@@ -5,12 +5,18 @@
         width:100%;
         justify-content: center !important;
     }
-    .whatsappbtn,.login{
+    .whatsappbtn, .login{
         padding: 7px 12px;
         font-size: 14px;
+        margin-bottom: 1rem; /* Use this instead of mb-3 */
     }
+    
+    .bannerContent h1 {                                          
+        font-size: 25px !important;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+    } 
 }
-
 
 
 @media (min-width: 1400px) {
