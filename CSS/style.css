@@ -4,17 +4,18 @@
 
 .whatsappbtn{
    padding: 10px 18px;
-   font-size: 16px
+   font-size: 10px
 }
 
 .login{
      padding: 10px 18px;
-     font-size: 16px;
+     font-size: 10px;
      color: #437fcc;
+     font-weight: bold;
 }
 
 .bannerContent h1{
-    font-size:50px ;
+    font-size:40px ;
     font-family: "Inter", sans-serif;
     font-weight:bold ;
 }
@@ -24,7 +25,7 @@
 }
 
 .bannerContent p{
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 20px;
     color: #555;
 }
@@ -33,7 +34,7 @@
     list-style: none;
 }
 .ListC {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold; 
   font-family: "Inter", sans-serif;
   margin: 0px;
@@ -42,13 +43,73 @@
 
 .bannerContentBtn button{
     padding: 12px 25px;
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 10px;
     margin-top: 1rem;
     border: 2px solid #437fcc;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    
-    
+       
 }
+
+.FillDiv {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 20px;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    background-color: #f3f4f6;
+}
+
+.FillDiv input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.FillDiv p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.FillDiv p span {
+    font-family: "Inter", sans-serif;
+    color: #437fcc;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.FillDiv select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+.FillDiv select button{
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #437fcc;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+  
