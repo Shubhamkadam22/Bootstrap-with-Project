@@ -112,4 +112,11 @@
     font-family: "Inter", sans-serif;
 }
 
-  
+.footer {
+    box-shadow: #ccc 0px 1px 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
